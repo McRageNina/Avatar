@@ -1,0 +1,14 @@
+/* font-family: "Inter", serif;
+font-family: "Headland One", serif;
+font-family: "Hammersmith One", serif; */
+
+:root{
+    --text-light:#ffffff;
+    --hover:#94cfff;
+    --button-color:#0B0E66;
+    --button-border:#26C7EA;
+    --button-text:#26C6EA;
+    --light-background:#ffffff;
+    --section-tittle:#0A3853;
+    --text-dark:#000000;
+}
