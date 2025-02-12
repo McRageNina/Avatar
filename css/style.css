@@ -188,6 +188,7 @@ body{
     padding-bottom: 330px;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 
 .container-trailer{
@@ -222,7 +223,7 @@ body{
     font-size: 32px;
     text-align: justify;
     color: var(--text-dark);
-    padding-bottom: 45px;
+    margin-bottom: 45px;
     text-align: center;
 }
 
@@ -230,7 +231,7 @@ body{
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
-    
+    justify-content: center;
 }
 
 .translator-list-item{
