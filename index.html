@@ -10,11 +10,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Headland+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Avatar</title>
 </head>
 <body>
     <header class="header">
-        <div class="container header-container">
+        <div class="container header-container" data-aos="zoom-out-down">
             <a class="logo" href="./index.html"><img src="./img/avatar-logo.png" alt="Лого"></a>
             <nav class="navigation">
                     <ul class="pages-list">
@@ -37,7 +38,10 @@
         <section class="hero">
             <div class="container hero-wrap">
                 <ul class="hero-list">
-                    <li class="hero-list-item">
+                    <li class="hero-list-item" data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-duration="500"
+                    data-aos-easing="ease-in-sine">
                         <p class="hero-text">
                             Oe perlltxe hu tsamsiyu!<br>
                             Ngari hu Eywa salew tirea,<br>
@@ -55,7 +59,10 @@
                         <button class="hero-button">Приєднатися до<br>клану</button>
                     </li>
                     <li class="hero-list-item">
-                        <ul class="social-list">
+                        <ul class="social-list" data-aos="fade-left"
+                        data-aos-offset="300"
+                        data-aos-duration="500"
+                        data-aos-easing="ease-in-sine">
                             <li class="social-item">
                                 <a class="hero-list-link" href="https://www.instagram.com/p/DDW8F_TuA94/"><img class="social-img" src="./img/instagram.png" alt="instagram"></a>
                             </li>
@@ -71,7 +78,7 @@
             </div>
         </section>
         <section class="quote">
-            <div class="container container-section">
+            <div class="container container-section" data-aos="zoom-out">
                 <h2 class="quote-title">“БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ<br>ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.” </h2>
                 <p class="quote-author">
                     Джейк Саллі
@@ -81,11 +88,12 @@
         </section>
         <section class="trailer">
             <div class="container container-trailer">
-            <button class="trailer-button">Дивитись трейлер</button>
+            <button class="trailer-button" data-aos="fade-up"
+            data-aos-anchor-placement="top-center">Дивитись трейлер</button>
             </div>
         </section>
         <section class="quote">
-            <div class="container container-section">
+            <div class="container container-section" data-aos="zoom-out">
                 <h2 class="quote-title">“ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ<br>ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”</h2>
                 <p class="quote-author">
                     Джейк Саллі
@@ -131,7 +139,7 @@
             </div>
         </section>
         <section class="quote">
-            <div class="container container-section">
+            <div class="container container-section" data-aos="zoom-out">
                 <h2 class="quote-title">“НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ,<br>ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.”</h2>
                 <p class="quote-author">
                     Нейтірі
@@ -141,7 +149,7 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="container footer-container">
+        <div class="container footer-container" data-aos="zoom-out-up">
             <a class="footer-logo" href="./index.html"><img src="./img/avatar-logo.png" alt="logo"></a>
             <div class="line"></div>
             <ul class="footer-list">
@@ -165,5 +173,9 @@
             </ul>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
